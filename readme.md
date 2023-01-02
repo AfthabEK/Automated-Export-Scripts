@@ -1,38 +1,31 @@
-Exporting files as PDF
+Exporting the handles of the required files.
 
-Step 1:
-    Open SOLR search console http://localhost:80/solr/#/search/query
-    Set q as
-        dc.contributor.advisor:Faculty name
-    Replace Faculty Name with the faculty name required
+    Open SOLR search console http://localhost:80/solr/#/search/query.
+    Set q as dc.contributor.advisor:Faculty name.
+    Replace Faculty Name with the name of the faculty required.
+    set wt field as CSV.
+    Execute query and verify results.
+    ![Screenshot from 2022-11-06 16-16-58](https://user-images.githubusercontent.com/105716804/210248420-3a6e8ec5-b785-421f-9706-703e1d298a78.png)
 
-
-    set rows as a high value ( to get all records )
-    set wt field as CSV
-    Execute query and verify results
-    ![Screenshot from 2022-11-06 16-16-58](https://user-images.githubusercontent.com/105716804/210248183-46569dc9-d153-45f7-8ed7-7a491b815220.png)
-
-    Open the query link in a new tab, to save as CSV file
-    Save the file as handles.txt in the desktop
-
-Step 2:
-
-    Open handle.txt
-    Remove the 1st line 'handle' from the file
-    Count the number of lines by scrolling all the way down
-    Create a new folder in the home folder (this home folder refers  to the folder accessible from the desktop)
-    Edit the exportfiles.sh script: replace the text "testfolder"  with the name of the new folder
-    Create another folder in the home folder
+    Open the query link in a new tab, to save as CSV file.
+    Save the file as handles.txt in the desktop.
+    
+Editing the script.
+    Open handle.txt.
+    Remove the 1st line 'handle' from the file.
+    Count the number of lines by scrolling all the way down.
+    Create a new folder in the home folder (this home folder refers  to the folder accessible from the desktop).
+    Edit the exportfiles.sh script: replace the text "testfolder"  with the name of the new folder.
+    Create another folder in the home folder.
     Edit the exportpdf.sh script: 
         replace the text testfolder with the name of the first folder, 
         replace the text testfolder_with_pdf with the name of the second folder
         replace the number inside the while bracket  with the number of lines in the handles.txt file
 
 
-Step 3:
-
-    run exportfiles.sh
-    run exportpdf.sh
+Running the scripts
+    run exportfiles.sh .
+    run exportpdf.sh .
 
 
 
