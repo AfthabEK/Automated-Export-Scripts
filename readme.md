@@ -12,12 +12,12 @@ Editing the script:
 - Count the number of lines by scrolling all the way down.
 - Create a new folder in the home folder (this home folder refers to the folder accessible from the desktop).
 - Edit the exportfiles.sh script:
-	Replace the text "testfolder" with the name of the new folder.
-	Create another folder in the home folder.
+	- Replace the text "testfolder" with the name of the new folder.
+	- Create another folder in the home folder.
 - Edit the exportpdf.sh script:
-	Replace the text testfolder with the name of the first folder
-	Replace the text testfolder_with_pdf with the name of the second folder
-	Replace the number inside the while bracket with the number of lines in the handles.txt file
+	- Replace the text testfolder with the name of the first folder
+	- Replace the text testfolder_with_pdf with the name of the second folder
+	- Replace the number inside the while bracket with the number of lines in the handles.txt file
 
 Running the scripts:
 - run exportfiles.sh 
