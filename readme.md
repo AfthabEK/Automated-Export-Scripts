@@ -1,9 +1,16 @@
 Exporting files as PDF
 
 Step 1:
+    Open SOLR search console http://localhost:80/solr/#/search/query
+    Set q as
+        dc.contributor.advisor:Faculty name
+    Replace Faculty Name with the faculty name required
+![Screenshot from 2022-11-06 16-16-58](https://user-images.githubusercontent.com/105716804/210247871-56e777c0-ae15-4130-a2ab-f22801d1fccd.png)
 
-    Export the handle metadata of the required files by following the steps given in export-metadata.md file
-    Click on the link shown above the csv data
+    set rows as a high value ( to get all records )
+    set wt field as CSV
+    Execute query and verify results
+    Open the query link in a new tab, to save as CSV file
     Save the file as handles.txt in the desktop
 
 Step 2:
