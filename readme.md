@@ -23,4 +23,4 @@ Running the scripts:
 - run exportfiles.sh 
 - run exportpdf.sh .
 
-The required pdfs (including the full theses and abstracts) will be there inside the 2nd folder.
+The required PDF files (including the full theses and abstracts) will be there inside the 2nd folder.
