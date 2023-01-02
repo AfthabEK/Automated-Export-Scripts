@@ -10,7 +10,7 @@ Step 1:
     set rows as a high value ( to get all records )
     set wt field as CSV
     Execute query and verify results
-    ![Screenshot from 2022-11-06 16-16-58](https://user-images.githubusercontent.com/105716804/210248125-295b1aab-5db1-463f-ae63-1ed8c5f377ac.png)
+    ![Screenshot from 2022-11-06 16-16-58](https://user-images.githubusercontent.com/105716804/210248183-46569dc9-d153-45f7-8ed7-7a491b815220.png)
 
     Open the query link in a new tab, to save as CSV file
     Save the file as handles.txt in the desktop
